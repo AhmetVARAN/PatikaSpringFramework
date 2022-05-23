@@ -1,4 +1,4 @@
-package qualifier;
+package qualifier2;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.Documented;

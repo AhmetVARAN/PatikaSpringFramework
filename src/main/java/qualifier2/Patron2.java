@@ -1,4 +1,4 @@
-package qualifier;
+package qualifier2;
 
 @QualifierMultiple
 public class Patron2 implements IPatron {
