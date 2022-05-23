@@ -3,13 +3,13 @@ package bean;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.enterprise.context.ApplicationScoped;
+
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 @Named(value="cdiBean")
-@ApplicationScoped
-@Setter
-@Getter
+@RequestScoped
+@Getter @Setter
 public class JsfBean {
     private String patika;
 
