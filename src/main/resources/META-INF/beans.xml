@@ -15,4 +15,8 @@
         <class>aop.interceptor.InterceptorYolKesiciAsilIs</class>
     </interceptors>
 
+    <!-- decorator -->
+    <decorators>
+        <class>aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
